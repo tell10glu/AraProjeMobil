@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background_default">
+
+    <ImageView
+        android:src="@drawable/wooden_background"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <RelativeLayout
+
+        android:padding="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/main_coin_image"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/coin"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/main_coin_image"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:textColor="@color/main_menu_text_color"
+            android:text="100"
+            android:textSize="30sp"
+            android:id="@+id/main_total_coin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            <TextView
+
+                android:background="@drawable/main_menu_button_background"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textColor="@color/main_menu_text_color"
+                android:id="@+id/main_new_game"
+                android:layout_gravity="center"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:text="@string/new_game"
+                android:textSize="40sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        <TextView
+
+            android:background="@drawable/main_menu_button_background"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/main_menu_text_color"
+            android:id="@+id/main_collect_coin"
+            android:layout_gravity="center"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="@string/collect_coin"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+
+            android:background="@drawable/main_menu_button_background"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:id="@+id/main_exit"
+            android:layout_gravity="center"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="@string/exit"
+            android:textSize="40sp"
+            android:textColor="@color/main_menu_text_color"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

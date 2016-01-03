@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@null"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:id="@+id/dialog_relative_container"
+        android:layout_height="300dp">
+        <ImageView
+            android:layout_marginTop="40dp"
+            android:scaleType="fitXY"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/wood3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_centerInParent="true"
+            android:padding="30dp"
+            android:textSize="30sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:textColor="@color/main_menu_text_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/dialog_message_text"
+            android:layout_gravity="center_horizontal" />
+
+
+    </RelativeLayout>
+
+    <TextView
+
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/dismiss_button_background"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textStyle="bold|italic"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="X"
+        android:id="@+id/dialog_message_dismiss" />
+</RelativeLayout>

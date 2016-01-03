@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Ara Proje</string>
+
+    <string name="hello_world" translatable="false">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="new_game">New Game</string>
+    <string name="exit">Exit</string>
+    <string name="collect_coin">Collect Coin</string>
+    <string name="confirm">Confirm</string>
+    <string name="collect_coin_message">You need to collect coin to play game!</string>
+    <string name="win_message">Congratulations :) Click for another game</string>
+    <string name="lose_message">You Lost :( Collect coins to play</string>
+    <color name="main_menu_text_color">#ffffc39b</color>
+    <string name="game_tutorial">You need to reach the final word by using the listed words.</string>
+</resources>

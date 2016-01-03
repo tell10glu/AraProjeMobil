@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ara Proje</string>
+    <string name="collect_coin">Para Topla</string>
+    <string name="confirm">Tamamla</string>
+    <string name="exit">Çıkış</string>
+    <string name="hello_world"></string>
+    <string name="new_game">Yeni Oyun</string>
+    <string name="collect_coin_message">Oyunu oynayabilmeniz için para toplamanız gerekmektedir!</string>
+    <string name="lose_message">Kaybettiniz :( Yeni oyuna başlamak için para toplayın...</string>
+    <string name="win_message">Tebrikler :) Yeni oyuna başlamak için tıklayın</string>
+    <string name="game_tutorial">Listelenen kelimeler sayesinde hedef kelimeye ulaş!</string>
+</resources>
